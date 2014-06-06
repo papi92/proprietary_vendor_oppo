@@ -43,7 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/find7a/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/oppo/find7a/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/oppo/find7a/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/oppo/find7a/proprietary/vendor/lib/libjpeg.so:system/vendor/lib/libjpeg.so \
     vendor/oppo/find7a/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/oppo/find7a/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/oppo/find7a/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
