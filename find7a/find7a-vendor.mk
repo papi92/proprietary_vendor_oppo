@@ -22,7 +22,6 @@ $(call inherit-product, vendor/oppo/find7a/find7a-vendor-blobs.mk)
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
     com.qualcomm.location \
-    ims \
     PPPreference \
     qcrilmsgtunnel \
     QuickBoot \
@@ -32,11 +31,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     cneapiclient \
     com.quicinc.cne \
-    imslibrary \
     qcnvitems \
     qcrilhook
 
 # Prebuilt vendor/libs needed for compilation
 PRODUCT_PACKAGES += \
+    liblisten \
     libHevcSwDecoder \
+    libmm-abl \
     libtime_genoff

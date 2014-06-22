@@ -21,15 +21,10 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/find7a/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/oppo/find7a/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
     vendor/oppo/find7a/proprietary/vendor/lib/libscve_stub.so:system/vendor/lib/libscve_stub.so \
-    vendor/oppo/find7a/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
-    vendor/oppo/find7a/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
-    vendor/oppo/find7a/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
-    vendor/oppo/find7a/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so \
     vendor/oppo/find7a/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/oppo/find7a/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/oppo/find7a/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/oppo/find7a/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
-    vendor/oppo/find7a/proprietary/vendor/lib/libcsd-client.so:system/vendor/lib/libcsd-client.so \
     vendor/oppo/find7a/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/oppo/find7a/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/oppo/find7a/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
@@ -43,6 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/find7a/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/oppo/find7a/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/oppo/find7a/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/oppo/find7a/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/oppo/find7a/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/oppo/find7a/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/oppo/find7a/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
@@ -112,11 +108,9 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/find7a/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
     vendor/oppo/find7a/proprietary/bin/hvdcp:system/bin/hvdcp \
     vendor/oppo/find7a/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
-    vendor/oppo/find7a/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/oppo/find7a/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
     vendor/oppo/find7a/proprietary/bin/quipc_main:system/bin/quipc_main \
     vendor/oppo/find7a/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-    vendor/oppo/find7a/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/oppo/find7a/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/oppo/find7a/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/oppo/find7a/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
@@ -148,10 +142,8 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/find7a/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/oppo/find7a/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
     vendor/oppo/find7a/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
-    vendor/oppo/find7a/proprietary/etc/permissions/ims.xml:system/etc/permissions/ims.xml \
     vendor/oppo/find7a/proprietary/vendor/lib/liblistenhardware.so:system/vendor/lib/liblistenhardware.so \
     vendor/oppo/find7a/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
-    vendor/oppo/find7a/proprietary/vendor/lib/liblisten.so:system/vendor/lib/liblisten.so \
     vendor/oppo/find7a/proprietary/vendor/lib/liblistensoundmodel.so:system/vendor/lib/liblistensoundmodel.so \
     vendor/oppo/find7a/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/oppo/find7a/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
@@ -164,11 +156,11 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/find7a/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/oppo/find7a/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/oppo/find7a/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
+    vendor/oppo/find7a/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/oppo/find7a/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/oppo/find7a/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/oppo/find7a/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/oppo/find7a/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-    vendor/oppo/find7a/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/oppo/find7a/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/oppo/find7a/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/oppo/find7a/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
@@ -199,13 +191,11 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/find7a/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/oppo/find7a/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/oppo/find7a/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/oppo/find7a/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     vendor/oppo/find7a/proprietary/vendor/lib/libAKM8963.so:system/vendor/lib/libAKM8963.so \
     vendor/oppo/find7a/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
     vendor/oppo/find7a/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/oppo/find7a/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
-    vendor/oppo/find7a/proprietary/vendor/lib/libsensor_thresh.so:system/vendor/lib/libsensor_thresh.so \
-    vendor/oppo/find7a/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
-    vendor/oppo/find7a/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     vendor/oppo/find7a/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/oppo/find7a/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/oppo/find7a/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
