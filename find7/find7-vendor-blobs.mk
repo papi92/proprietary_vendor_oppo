@@ -207,5 +207,4 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/find7/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/oppo/find7/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/oppo/find7/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/oppo/find7/proprietary/bin/hwaddrs:system/bin/hwaddrs \
     vendor/oppo/find7/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so
