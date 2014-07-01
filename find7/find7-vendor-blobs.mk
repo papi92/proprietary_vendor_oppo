@@ -177,7 +177,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/find7/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/oppo/find7/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/oppo/find7/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/oppo/find7/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
     vendor/oppo/find7/proprietary/vendor/lib/libAKM8963.so:system/vendor/lib/libAKM8963.so \
     vendor/oppo/find7/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
     vendor/oppo/find7/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
