@@ -29,14 +29,11 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt jars
 PRODUCT_PACKAGES += \
-    cneapiclient \
-    com.quicinc.cne \
     qcnvitems \
     qcrilhook
 
 # Prebuilt vendor/libs needed for compilation
 PRODUCT_PACKAGES += \
-    liblisten \
     libHevcSwDecoder \
     libmm-abl \
     libtime_genoff
