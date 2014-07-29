@@ -16,6 +16,8 @@
 
 # Pick up overlay for features that depend on non-open-source files
 
+ifneq ($(filter find7 find7u,$(TARGET_DEVICE)),)
+
 ifeq ($(TARGET_DEVICE),find7)
 DEVICE_PACKAGE_OVERLAYS += vendor/oppo/find7/overlay
 endif
@@ -44,3 +46,5 @@ PRODUCT_PACKAGES += \
     libHevcSwDecoder \
     libmm-abl \
     libtime_genoff
+
+endif
