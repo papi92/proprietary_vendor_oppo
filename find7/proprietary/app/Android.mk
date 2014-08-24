@@ -16,56 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),find7u)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.qualcomm.location
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := com.qualcomm.location.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := PPPreference
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := PPPreference.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := qcrilmsgtunnel
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := qcrilmsgtunnel.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := QuickBoot
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := QuickBoot.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := shutdownlistener
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := shutdownlistener.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-include $(BUILD_PREBUILT)
-
-endif
-
-ifeq ($(TARGET_DEVICE),find7)
+ifneq ($(filter find7 find7u,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := com.qualcomm.location

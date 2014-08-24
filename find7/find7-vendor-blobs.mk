@@ -95,6 +95,10 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/find7/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
     vendor/oppo/find7/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
     vendor/oppo/find7/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/oppo/find7/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/oppo/find7/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/oppo/find7/proprietary/bin/hvdcp:system/bin/hvdcp \
     vendor/oppo/find7/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/oppo/find7/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
